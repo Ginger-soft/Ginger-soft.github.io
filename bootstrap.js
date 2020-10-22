@@ -52,203 +52,173 @@
 /******/ 	function promiseResolve() { return Promise.resolve(); }
 /******/
 /******/ 	var wasmImportObjects = {
-/******/ 		"../pkg/interactive_cube_bg.wasm": function() {
+/******/ 		"../pkg/simple_primitives_bg.wasm": function() {
 /******/ 			return {
-/******/ 				"./interactive_cube_bg.js": {
+/******/ 				"./simple_primitives_bg.js": {
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
-/******/ 					},
-/******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbindgen_cb_drop": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_new_59cb74e423758ede": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_new_59cb74e423758ede"]();
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_new_59cb74e423758ede"]();
 /******/ 					},
 /******/ 					"__wbg_stack_558ba5917b466edd": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_stack_558ba5917b466edd"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_stack_558ba5917b466edd"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_error_4bb6c2a97407129a": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_error_4bb6c2a97407129a"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_error_4bb6c2a97407129a"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_Window_adf3196bdc02b386": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_instanceof_Window_adf3196bdc02b386"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_Window_adf3196bdc02b386"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_document_6cc8d0b87c0a99b9": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_document_6cc8d0b87c0a99b9"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_requestAnimationFrame_89935c9d6ac25d2f": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_requestAnimationFrame_89935c9d6ac25d2f"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_document_6cc8d0b87c0a99b9"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_getElementById_0cb6ad9511b1efc0": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getElementById_0cb6ad9511b1efc0"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getElementById_0cb6ad9511b1efc0"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_HtmlCanvasElement_4f5b5ec6cd53ccf3": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_instanceof_HtmlCanvasElement_4f5b5ec6cd53ccf3"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_HtmlCanvasElement_4f5b5ec6cd53ccf3"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_width_a22f9855caa54b53": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_width_a22f9855caa54b53"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_width_a22f9855caa54b53"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_height_9a404a6b3c61c7ef": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_height_9a404a6b3c61c7ef"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_height_9a404a6b3c61c7ef"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_getContext_37ca0870acb096d9": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getContext_37ca0870acb096d9"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbg_addEventListener_9e7b0c3f65ebc0d7": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_addEventListener_9e7b0c3f65ebc0d7"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getContext_37ca0870acb096d9"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_canvas_e38c05daf8cccb76": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_canvas_e38c05daf8cccb76"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_bufferData_0690087420a9f115": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_bufferData_0690087420a9f115"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_bufferData_0690087420a9f115"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__wbg_uniformMatrix4fv_8f6f3c8389e3b449": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_uniformMatrix4fv_8f6f3c8389e3b449"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_uniformMatrix4fv_8f6f3c8389e3b449"](p0i32,p1i32,p2i32,p3i32,p4i32);
 /******/ 					},
 /******/ 					"__wbg_attachShader_d213e7ecd3432f4a": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_attachShader_d213e7ecd3432f4a"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_attachShader_d213e7ecd3432f4a"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_bindBuffer_f0ba4bbfd5b08434": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_bindBuffer_f0ba4bbfd5b08434"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_bindBuffer_f0ba4bbfd5b08434"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_clear_c9cc14c37d12a838": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_clear_c9cc14c37d12a838"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_clear_c9cc14c37d12a838"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_clearColor_73695d8d401f87e6": function(p0i32,p1f32,p2f32,p3f32,p4f32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_clearColor_73695d8d401f87e6"](p0i32,p1f32,p2f32,p3f32,p4f32);
-/******/ 					},
-/******/ 					"__wbg_clearDepth_71c6e84a422ed016": function(p0i32,p1f32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_clearDepth_71c6e84a422ed016"](p0i32,p1f32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_clearColor_73695d8d401f87e6"](p0i32,p1f32,p2f32,p3f32,p4f32);
 /******/ 					},
 /******/ 					"__wbg_compileShader_961db910485f4a76": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_compileShader_961db910485f4a76"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_compileShader_961db910485f4a76"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_createBuffer_4deb008968921e7f": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_createBuffer_4deb008968921e7f"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_createBuffer_4deb008968921e7f"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_createProgram_b502951c403f671a": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_createProgram_b502951c403f671a"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_createProgram_b502951c403f671a"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_createShader_7bd4296ba9c32133": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_createShader_7bd4296ba9c32133"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_createShader_7bd4296ba9c32133"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__wbg_drawElements_b22db7173101346e": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_drawElements_b22db7173101346e"](p0i32,p1i32,p2i32,p3i32,p4i32);
+/******/ 					"__wbg_drawArrays_cbb0990b0388fa17": function(p0i32,p1i32,p2i32,p3i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_drawArrays_cbb0990b0388fa17"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__wbg_enable_700dbd1724c67920": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_enable_700dbd1724c67920"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_enable_700dbd1724c67920"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_enableVertexAttribArray_4b6614b028d442ff": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_enableVertexAttribArray_4b6614b028d442ff"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_enableVertexAttribArray_4b6614b028d442ff"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_getAttribLocation_98ff7fc515cda07d": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getAttribLocation_98ff7fc515cda07d"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getAttribLocation_98ff7fc515cda07d"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__wbg_getProgramInfoLog_a84afc629d343c75": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getProgramInfoLog_a84afc629d343c75"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getProgramInfoLog_a84afc629d343c75"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getProgramParameter_327111ebb2bca7fb": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getProgramParameter_327111ebb2bca7fb"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getProgramParameter_327111ebb2bca7fb"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getShaderInfoLog_a9529ee3f2ebd3e0": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getShaderInfoLog_a9529ee3f2ebd3e0"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getShaderInfoLog_a9529ee3f2ebd3e0"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getShaderParameter_d7853b2d4822ad9f": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getShaderParameter_d7853b2d4822ad9f"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getShaderParameter_d7853b2d4822ad9f"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getUniformLocation_55700686ebe625a9": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_getUniformLocation_55700686ebe625a9"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getUniformLocation_55700686ebe625a9"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
 /******/ 					"__wbg_linkProgram_7c29f15a5150d174": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_linkProgram_7c29f15a5150d174"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_linkProgram_7c29f15a5150d174"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_shaderSource_bf6be2cc97a14fc1": function(p0i32,p1i32,p2i32,p3i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_shaderSource_bf6be2cc97a14fc1"](p0i32,p1i32,p2i32,p3i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_shaderSource_bf6be2cc97a14fc1"](p0i32,p1i32,p2i32,p3i32);
+/******/ 					},
+/******/ 					"__wbg_uniform4f_47bfe7de98565851": function(p0i32,p1i32,p2f32,p3f32,p4f32,p5f32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_uniform4f_47bfe7de98565851"](p0i32,p1i32,p2f32,p3f32,p4f32,p5f32);
 /******/ 					},
 /******/ 					"__wbg_useProgram_51f7808f5955c03a": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_useProgram_51f7808f5955c03a"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_useProgram_51f7808f5955c03a"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_vertexAttribPointer_76ddec1ed8425967": function(p0i32,p1i32,p2i32,p3i32,p4i32,p5i32,p6i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_vertexAttribPointer_76ddec1ed8425967"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32,p6i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_vertexAttribPointer_76ddec1ed8425967"](p0i32,p1i32,p2i32,p3i32,p4i32,p5i32,p6i32);
 /******/ 					},
 /******/ 					"__wbg_viewport_dd0dedc488a8dba4": function(p0i32,p1i32,p2i32,p3i32,p4i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_viewport_dd0dedc488a8dba4"](p0i32,p1i32,p2i32,p3i32,p4i32);
-/******/ 					},
-/******/ 					"__wbg_movementX_8d0fe2ebeff779ef": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_movementX_8d0fe2ebeff779ef"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_movementY_f928be0f4a374879": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_movementY_f928be0f4a374879"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_viewport_dd0dedc488a8dba4"](p0i32,p1i32,p2i32,p3i32,p4i32);
 /******/ 					},
 /******/ 					"__wbg_newnoargs_f3b8a801d5d4b079": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_newnoargs_f3b8a801d5d4b079"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_newnoargs_f3b8a801d5d4b079"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_call_8e95613cc6524977": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_call_8e95613cc6524977"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_call_8e95613cc6524977"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_self_07b2f89e82ceb76d": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_self_07b2f89e82ceb76d"]();
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_self_07b2f89e82ceb76d"]();
 /******/ 					},
 /******/ 					"__wbg_window_ba85d88572adc0dc": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_window_ba85d88572adc0dc"]();
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_window_ba85d88572adc0dc"]();
 /******/ 					},
 /******/ 					"__wbg_globalThis_b9277fc37e201fe5": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_globalThis_b9277fc37e201fe5"]();
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_globalThis_b9277fc37e201fe5"]();
 /******/ 					},
 /******/ 					"__wbg_global_e16303fe83e1d57f": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_global_e16303fe83e1d57f"]();
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_global_e16303fe83e1d57f"]();
 /******/ 					},
 /******/ 					"__wbindgen_is_undefined": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_buffer_49131c283a06686f": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_buffer_49131c283a06686f"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_new_6163f4677d099230": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_new_6163f4677d099230"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_buffer_49131c283a06686f"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_new_79f4487112eba5a7": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_new_79f4487112eba5a7"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_subarray_d4e9014908bef0f6": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_subarray_d4e9014908bef0f6"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_new_79f4487112eba5a7"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_subarray_f5aa665f0873e6e8": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_subarray_f5aa665f0873e6e8"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_subarray_f5aa665f0873e6e8"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_instanceof_Memory_8d2ddec6afb83aaa": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbg_instanceof_Memory_8d2ddec6afb83aaa"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_Memory_8d2ddec6afb83aaa"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_random_a3b3bcffa2ed629c": function() {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_random_a3b3bcffa2ed629c"]();
 /******/ 					},
 /******/ 					"__wbindgen_boolean_get": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_boolean_get"](p0i32);
-/******/ 					},
-/******/ 					"__wbindgen_debug_string": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_debug_string"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_boolean_get"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_rethrow": function(p0i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_rethrow"](p0i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_rethrow"](p0i32);
 /******/ 					},
 /******/ 					"__wbindgen_memory": function() {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_memory"]();
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper87": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_closure_wrapper87"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper89": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/interactive_cube_bg.js"].exports["__wbindgen_closure_wrapper89"](p0i32,p1i32,p2i32);
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -341,7 +311,7 @@
 /******/
 /******/ 		// Fetch + compile chunk loading for webassembly
 /******/
-/******/ 		var wasmModules = {"0":["../pkg/interactive_cube_bg.wasm"]}[chunkId] || [];
+/******/ 		var wasmModules = {"0":["../pkg/simple_primitives_bg.wasm"]}[chunkId] || [];
 /******/
 /******/ 		wasmModules.forEach(function(wasmModuleId) {
 /******/ 			var installedWasmModuleData = installedWasmModules[wasmModuleId];
@@ -351,7 +321,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/interactive_cube_bg.wasm":"6ef29708d3eb34bee82d"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/simple_primitives_bg.wasm":"176f434dbf86f56dbdba"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
@@ -452,7 +422,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// A dependency graph that contains any wasm must all be imported\r\n// asynchronously. This `bootstrap.js` file does the single async import, so\r\n// that no one else needs to worry about it again.\r\n__webpack_require__.e(/*! import() */ 1).then(__webpack_require__.t.bind(null, /*! ./index.js */ \"./index.js\", 7))\r\n  .catch(e => console.error(\"Error importing `index.js`:\", e));\r\n\n\n//# sourceURL=webpack:///./bootstrap.js?");
+eval("// A dependency graph that contains any wasm must all be imported\r\n// asynchronously. This `bootstrap.js` file does the single async import, so\r\n// that no one else needs to worry about it again.\r\n__webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./index.js */ \"./index.js\"))\r\n  .catch(e => console.error(\"Error importing `index.js`:\", e));\r\n\n\n//# sourceURL=webpack:///./bootstrap.js?");
 
 /***/ })
 
