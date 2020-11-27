@@ -94,6 +94,12 @@
 /******/ 					"__wbg_addEventListener_9e7b0c3f65ebc0d7": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_addEventListener_9e7b0c3f65ebc0d7"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
+/******/ 					"__wbg_clientWidth_857377e072b59b4b": function(p0i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_clientWidth_857377e072b59b4b"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_clientHeight_daa13ddd5bd5136d": function(p0i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_clientHeight_daa13ddd5bd5136d"](p0i32);
+/******/ 					},
 /******/ 					"__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4"](p0i32);
 /******/ 					},
@@ -144,6 +150,9 @@
 /******/ 					},
 /******/ 					"__wbg_getAttribLocation_98ff7fc515cda07d": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getAttribLocation_98ff7fc515cda07d"](p0i32,p1i32,p2i32,p3i32);
+/******/ 					},
+/******/ 					"__wbg_getExtension_d4422753d7c5b70a": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getExtension_d4422753d7c5b70a"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getProgramInfoLog_a84afc629d343c75": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getProgramInfoLog_a84afc629d343c75"](p0i32,p1i32,p2i32);
@@ -232,11 +241,11 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper84": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper84"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper93": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper93"](p0i32,p1i32,p2i32);
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper86": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper86"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper95": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper95"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -339,7 +348,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/simple_primitives_bg.wasm":"756f241fa4ad343c8441"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/simple_primitives_bg.wasm":"794e33128e0490f25056"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
