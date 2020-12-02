@@ -1,36 +1,110 @@
-/* Split the screen in half */
-.split {
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-}
-  
-/* Control the left side */
-.left {
-  left: 0;
-  width: 75%;
-  background-color: #111;
-}
-  
-/* Control the right side */
-.right {
-  right: 0;
-  width: 25%;
-  background-color: gray;
-}
-  
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-body {
+body, html{
   padding: 0;
   margin: 0;
+  position: relative;
+  height: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#4f5b66;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  text-decoration: none;
+  background-color: #343d46;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
+
+li a:visited {
+  color: white;
+}
+
+li a:active {
+  color: #343d46;
+}
+
+li a:hover {
+  color: white;
+}
+
+.active {
+  background-color: #343d46;
+}
+
+.header, .footer{
+  width:100%;
+  background:#ccc;
+  margin: 0px;
+  padding:0px;
+  box-sizing:border-box;
+  background: #343d46;
+}
+.header{
+  height: 5%;
+}
+.footer{
+  height: 3%;
+  color: white;
+  text-align: center;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.content{
+  background:rgb(255, 0, 242);
+  width:100%;
+  height:92%;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.left{
+  width:20%;
+  float:left;
+  background:#65737e;
+  height:100%;
+}
+.right{
+  width:80%;
+  float:right;
+  background:rgb(0, 0, 0);
+  height:100%;
+}
+
+.canvas {
+  height: auto;
+  width: auto;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bolder;
+}
+
+.logoImage {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
 }

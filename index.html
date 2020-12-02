@@ -2,53 +2,80 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
   <title>Simple Primitives</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<link rel="stylesheet" href="index.css">
 
 <body>
   <script src="./bootstrap.js"></script>
 
-  <div class="split left">
-    <div class="centered">
-      <canvas class="canvas" id="canvas"></canvas>
-    </div>
+  <div class="header">
+    <ul>
+      <li class="title">Simple Primitives</li>
+      <li><a href="#home">Home</a></li>
+      <li><a class="active" href="#editor">Editor</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
   </div>
-                             
-  <div class="split right">
-    <div class="centered"> 
 
+  <div class="content">
+    <div class="right" id="canvasParent">
+      <canvas class="canvas" id="canvas">
+        Sorry, your browser doesn't support the &lt;canvas&gt; element.
+      </canvas>
+    </div>
+
+    <div class="left">
       <label>Shape</label>
-      
+
       <br>
 
       <select name="shapes" id="shapes">
         <option value="plane">Plane</option>
+        <option value="disk">Disk</option>
         <option value="cube">Cube</option>
         <option value="sphere">Sphere</option>
-        <option value="disk">Disk</option>
+        <option value="cylinder">Cylinder</option>
+        <option value="tube">Tube</option>
       </select>
 
       <br>
 
-      <label>Subdivision</label>
+      <label>Scale</label>
 
       <br>
 
-      <label id="label">1</label>
+      X
+      <input id="inputScaleX" type="number" value="1"><br>
+      Y
+      <input id="inputScaleY" type="number" value="1"><br>
+      Z
+      <input id="inputScaleZ" type="number" value="1"><br>
+      Subdivisions
+      <input id="inputSubdivisions" type="number" value="1"><br>
+      Radius
+      <input id="inputRadius" type="number" value="1"><br>
+      Sides
+      <input id="inputSides" type="number" value="10"><br>
+      Inner Radius
+      <input id="inputInnerRadius" type="number" value="1"><br>
+      Outer Radius
+      <input id="inputOuterRadius" type="number" value="2"><br>
 
-      <input id="slider" type="range" min="1" max="100" value="1" step="1">
-      
-      <br>
-
-      <button type="button" id="btnGenerate">Generate</button>
-      
-      <br>
+      <button type="button" id="btnGenerate">Generate</button><br>
 
       <button type="button" id="btnExport">Export</button>
-     
     </div>
+  </div>
+
+  <div class="footer">
+    <span>Simple Primitives - Q42</span>
   </div>
 </body>
 

@@ -58,23 +58,20 @@
 /******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
+/******/ 					"__wbg_log_5ebf320d681d227b": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_log_5ebf320d681d227b"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
 /******/ 					},
-/******/ 					"__wbindgen_cb_drop": function(p0i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_cb_drop"](p0i32);
-/******/ 					},
 /******/ 					"__wbg_instanceof_Window_adf3196bdc02b386": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_Window_adf3196bdc02b386"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_document_6cc8d0b87c0a99b9": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_document_6cc8d0b87c0a99b9"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_requestAnimationFrame_89935c9d6ac25d2f": function(p0i32,p1i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_requestAnimationFrame_89935c9d6ac25d2f"](p0i32,p1i32);
 /******/ 					},
 /******/ 					"__wbg_getElementById_0cb6ad9511b1efc0": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getElementById_0cb6ad9511b1efc0"](p0i32,p1i32,p2i32);
@@ -102,9 +99,6 @@
 /******/ 					},
 /******/ 					"__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_WebGlRenderingContext_a37cc8c6016098e4"](p0i32);
-/******/ 					},
-/******/ 					"__wbg_canvas_e38c05daf8cccb76": function(p0i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_canvas_e38c05daf8cccb76"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_bufferData_0690087420a9f115": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_bufferData_0690087420a9f115"](p0i32,p1i32,p2i32,p3i32);
@@ -139,6 +133,9 @@
 /******/ 					"__wbg_createShader_7bd4296ba9c32133": function(p0i32,p1i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_createShader_7bd4296ba9c32133"](p0i32,p1i32);
 /******/ 					},
+/******/ 					"__wbg_cullFace_46691bed409a66a8": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_cullFace_46691bed409a66a8"](p0i32,p1i32);
+/******/ 					},
 /******/ 					"__wbg_drawArrays_cbb0990b0388fa17": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_drawArrays_cbb0990b0388fa17"](p0i32,p1i32,p2i32,p3i32);
 /******/ 					},
@@ -150,9 +147,6 @@
 /******/ 					},
 /******/ 					"__wbg_getAttribLocation_98ff7fc515cda07d": function(p0i32,p1i32,p2i32,p3i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getAttribLocation_98ff7fc515cda07d"](p0i32,p1i32,p2i32,p3i32);
-/******/ 					},
-/******/ 					"__wbg_getExtension_d4422753d7c5b70a": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getExtension_d4422753d7c5b70a"](p0i32,p1i32,p2i32);
 /******/ 					},
 /******/ 					"__wbg_getProgramInfoLog_a84afc629d343c75": function(p0i32,p1i32,p2i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_getProgramInfoLog_a84afc629d343c75"](p0i32,p1i32,p2i32);
@@ -223,9 +217,6 @@
 /******/ 					"__wbg_instanceof_Memory_8d2ddec6afb83aaa": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_instanceof_Memory_8d2ddec6afb83aaa"](p0i32);
 /******/ 					},
-/******/ 					"__wbg_random_a3b3bcffa2ed629c": function() {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbg_random_a3b3bcffa2ed629c"]();
-/******/ 					},
 /******/ 					"__wbindgen_boolean_get": function(p0i32) {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_boolean_get"](p0i32);
 /******/ 					},
@@ -241,11 +232,8 @@
 /******/ 					"__wbindgen_memory": function() {
 /******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_memory"]();
 /******/ 					},
-/******/ 					"__wbindgen_closure_wrapper93": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper93"](p0i32,p1i32,p2i32);
-/******/ 					},
-/******/ 					"__wbindgen_closure_wrapper95": function(p0i32,p1i32,p2i32) {
-/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper95"](p0i32,p1i32,p2i32);
+/******/ 					"__wbindgen_closure_wrapper119": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/simple_primitives_bg.js"].exports["__wbindgen_closure_wrapper119"](p0i32,p1i32,p2i32);
 /******/ 					}
 /******/ 				}
 /******/ 			};
@@ -348,7 +336,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/simple_primitives_bg.wasm":"794e33128e0490f25056"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/simple_primitives_bg.wasm":"3639bbafb0df3c9afb09"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
